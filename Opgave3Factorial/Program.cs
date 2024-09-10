@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ext;
 
 namespace Opgave3Factorial
 {
@@ -10,7 +11,9 @@ namespace Opgave3Factorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Factorial(5));
+            //Console.WriteLine(Factorial(5));
+            int result = 5.Factorial();
+            Console.WriteLine(result);
             Console.ReadLine();
         }
 
